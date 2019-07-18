@@ -88,7 +88,6 @@ class Env():
 
 
         reward = disjudge_reward + psnr_reward * 0.1
-
         self._state = new_state
 
         return new_state, reward, done
